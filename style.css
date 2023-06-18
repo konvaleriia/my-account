@@ -7,6 +7,7 @@
 .link {
     color: #00337f;
     text-decoration: none;
+    font-style: italic ;
 }
 
 .header {
@@ -50,9 +51,13 @@
 .main-header {
     display: none;
 }
+.text-card-1 {
+    font-style: italic;
+}
 
 .text-about {
     font-style: italic;
+    font-weight: bold;
 }
 .card {
     flex-basis: 25%;
