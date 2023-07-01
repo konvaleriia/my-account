@@ -91,6 +91,7 @@
     gap: 50px;
 
 }
+
 .footer {
     padding: 15px;
     background-color: #b087e8;
@@ -100,4 +101,38 @@
     color: #000000;
     font-size: 20px;
     font-style: italic;
+}
+
+.wrapp1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 50px;
+}
+
+.button {
+    padding: 30px 50px;
+    background-color: rgb(219, 218, 205);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 1s linear, transform 1s linear;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: rgb(182, 188, 255);
+    transform: rotateZ(20deg);
+}
+
+.button:hover span {
+    display: none;
+}
+
+.button:hover:after {
+    content: "+38(098)-485-55-92";
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
 }
